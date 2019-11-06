@@ -107,6 +107,8 @@ main .filterform form label:nth-child(-n+8) {
 
 }
 
+
+
 form {
     text-align: center;
 }
@@ -133,7 +135,14 @@ main .filterform form label {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.85em;
 
+
 }
+
+
+#formulier {
+    display: none;
+}
+
 
 input[type="range"] {
     -webkit-appearance: none;

@@ -3,7 +3,7 @@
 /*eslint 'no-console':0*/
 
 function showOpties(){
-    var x = document.getElementById("formulier");
+    var x = document.getElementsByClassName("filterform");
     if (x.style.display === "block"){
         x.style.display = "none";
     }
